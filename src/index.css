@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Calibri";
+  src: local("Calibri"), url("./fonts/Calibri.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  font-family: "Calibri", sans-serif;
+  background: #000;
+}
